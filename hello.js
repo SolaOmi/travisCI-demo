@@ -4,7 +4,7 @@ var PORT = process.env.PORT || 1337;
 
 http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/plain'});
-  res.end('Hello Travis and Heroku!\n');
+  res.end('Hello Travis and Heroku part II!\n');
 }).listen(PORT, '0.0.0.0');
 
 console.log('Server running at http://127.0.0.1:1337/');
